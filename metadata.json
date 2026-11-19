@@ -1,0 +1,8 @@
+{
+  "uuid": "auto-dark-switch@local",
+  "name": "Auto Dark Switch",
+  "description": "Keeps gtk-theme (e.g. adw-gtk3 / adw-gtk3-dark) in sync with GNOME dark style, with an optional light/dark schedule. No UI, no subprocesses.",
+  "shell-version": ["51"],
+  "settings-schema": "org.gnome.shell.extensions.auto-dark-switch",
+  "version": 2
+}

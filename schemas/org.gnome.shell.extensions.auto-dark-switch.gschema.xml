@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.auto-dark-switch"
+          path="/org/gnome/shell/extensions/auto-dark-switch/">
+    <key name="auto-enabled" type="b">
+      <default>true</default>
+      <summary>Switch automatically by time</summary>
+    </key>
+    <key name="light-hour" type="i">
+      <default>6</default>
+      <range min="0" max="23"/>
+      <summary>Hour when light mode starts</summary>
+    </key>
+    <key name="dark-hour" type="i">
+      <default>18</default>
+      <range min="0" max="23"/>
+      <summary>Hour when dark mode starts</summary>
+    </key>
+    <key name="light-gtk-theme" type="s">
+      <default>'adw-gtk3'</default>
+      <summary>GTK theme in light mode</summary>
+    </key>
+    <key name="dark-gtk-theme" type="s">
+      <default>'adw-gtk3-dark'</default>
+      <summary>GTK theme in dark mode</summary>
+    </key>
+  </schema>
+</schemalist>
