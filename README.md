@@ -25,7 +25,7 @@ GNOME already has a Dark Style toggle, and libadwaita (GTK4) apps follow it. Leg
   Flatpak picks the theme extension that matches the host `gtk-theme`, so no `GTK_THEME` override is needed.
 
 ## Installation
-
+ 
 ### From a release zip
 
 ```bash
